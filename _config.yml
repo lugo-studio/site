@@ -22,8 +22,9 @@ title: Lugo Studio
 email: contact@lugo.studio
 description: >- # this means to ignore newlines until "baseurl:"
   Collection of games & projects by Gabriel Lugo-Maldonado
-baseurl: /site # the subpath of your site, e.g. /blog
 domain: lugo.studio
+source: /site
+baseurl: / # the subpath of your site, e.g. /blog
 url: https://lugo.studio # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
