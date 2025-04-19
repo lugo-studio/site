@@ -211,9 +211,9 @@ progress:lsat-child {
   margin-bottom: 0
 }
 
-.error {
+/* .error {
   color: red
-}
+} */
 
 code {
   background: var(--bg-2);
