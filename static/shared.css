@@ -28,10 +28,10 @@ div.sveltekit_body {
 body {
   --border-radius: 4px;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  --font-mono: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", monospace;
+  --font-mono: "Jetbrains Mono", "Cascadia Code", "Source Code Pro", Menlo, Consolas, "DejaVu Sans Mono", ui-monospace, monospace;
   background: var(--bg-1);
   color: var(--fg-1);
-  font-family: var(--font);
+  font-family: var(--font-mono);
   height: calc(100vh - 2rem);
   margin: 1rem;
   line-height: 1.5
