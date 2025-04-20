@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+
+@import "@catppuccin/tailwindcss/mocha.css";
+
+html {
+  font-family: "Jetbrains Mono", "Consolas", monospace;
+}

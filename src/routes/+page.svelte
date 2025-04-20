@@ -1,4 +1,10 @@
-<div class="home">
-  <h1>home</h1>
-  <p>this is the home page.</p>
-</div>
+<script>
+  let title = "Lugo Studio";
+  let subtitle = "Home";
+</script>
+
+<svelte:head>
+  <title>{title} | {subtitle}</title>
+</svelte:head>
+
+<h1 class="text-3xl font-bold text-ctp-text">Hello, world!</h1>
