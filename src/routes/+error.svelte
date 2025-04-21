@@ -9,7 +9,7 @@
   class="mx-auto absolute top-0 lg:inset-x-50 w-full lg:w-1/2 h-dvh text-ctp-text"
 >
   <div class="grid grid-cols-1 gap-10">
-    <Logo subtitle="Error" />
+    <Logo subtitle={page.error?.message} />
     <Sep />
     <div class="grid grid-cols-1 gap-10">
       <div class="text-5xl text-center">Oh nyo~!</div>
