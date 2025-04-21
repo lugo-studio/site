@@ -13,7 +13,7 @@
     <Sep />
     <div class="grid grid-cols-1 gap-10">
       <div class="text-5xl text-center">Oh nyo~!</div>
-      <SepLabel label={page.error?.message} width={"1/4"} />
+      <SepLabel label={page.error?.message} width={"w-1/4"} />
     </div>
   </div>
 </div>
