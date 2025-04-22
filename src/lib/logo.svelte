@@ -7,7 +7,7 @@
 </svelte:head>
 
 <img
-  src="/branding/splash/cat_pure_borderless_sha2.png"
+  src="/assets/images/branding/cat_pure_borderless_sha2.png"
   alt="Lugo Studio"
   class="justify-self-center-safe"
 />
