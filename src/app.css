@@ -2,6 +2,8 @@
 
 @import "@catppuccin/tailwindcss/mocha.css";
 
+@plugin "@iconify/tailwind4";
+
 html {
   font-family: "Jetbrains Mono", "Consolas", monospace;
 }
