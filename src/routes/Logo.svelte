@@ -7,7 +7,7 @@
 <!-- https://stackoverflow.com/questions/43496495/text-shadow-in-safari-getting-cut-off-not-rendering-beyond-element-border -->
 <div class="mx-auto relative w-fit select-none">
   <div
-    class="z-99 translate-z-0 absolute right-3 w-22 md:right-8 md:w-40 aspect-square drop-shadow-[0.1rem_0.1rem_0.05rem_black]"
+    class="translate-z-0 absolute right-3 w-22 md:right-8 md:w-40 aspect-square drop-shadow-[0.1rem_0.1rem_0.05rem_black]"
   >
     <Signature />
   </div>

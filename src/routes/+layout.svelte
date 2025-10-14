@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Navbar, NavHamburger, NavLi, NavUl } from "flowbite-svelte";
   import "../app.css";
   import Footer from "./Footer.svelte";
   import Logo from "./Logo.svelte";
@@ -9,8 +10,18 @@
 <div class="mx-auto w-full min-h-screen text-ctp-text bg-ctp-base">
   <div class="mx-auto min-h-screen flex flex-col max-w-screen-xl">
     <div class="grow">
-      <header class="fadeInUp-animation py-16 md:py-32">
-        <Logo />
+      <header>
+        <Navbar class="rounded-lg bg-ctp-crust!">
+          <NavHamburger />
+          <NavUl class="mx-auto bg-ctp-crust!" ulClass="rounded-lg bg-ctp-mantle!">
+            <NavLi href="/">Home</NavLi>
+            <NavLi href="/">About</NavLi>
+            <NavLi href="https://gtlugo.com">Blog</NavLi>
+          </NavUl>
+        </Navbar>
+        <div class="fadeInUp-animation py-16">
+          <Logo />
+        </div>
       </header>
       <div class="mx-auto">
         <main class="px-8 py-16">
