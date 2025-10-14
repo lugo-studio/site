@@ -1,8 +1,9 @@
 <script lang="ts">
-  import { Navbar, NavHamburger, NavLi, NavUl } from "flowbite-svelte";
   import "../app.css";
-  import Footer from "./Footer.svelte";
+  import Header from "./Header.svelte";
   import Logo from "./Logo.svelte";
+  import Footer from "./Footer.svelte";
+  import { Hr } from "flowbite-svelte";
 
   let { children } = $props();
 </script>
@@ -10,19 +11,11 @@
 <div class="mx-auto w-full min-h-screen text-ctp-text bg-ctp-base">
   <div class="mx-auto min-h-screen flex flex-col max-w-screen-xl">
     <div class="grow">
-      <header>
-        <Navbar class="rounded-lg bg-ctp-crust!">
-          <NavHamburger />
-          <NavUl class="mx-auto bg-ctp-crust!" ulClass="rounded-lg bg-ctp-mantle!">
-            <NavLi href="/">Home</NavLi>
-            <NavLi href="/">About</NavLi>
-            <NavLi href="https://gtlugo.com">Blog</NavLi>
-          </NavUl>
-        </Navbar>
-        <div class="fadeInUp-animation py-16">
-          <Logo />
-        </div>
-      </header>
+      <Header />
+      <div class="fadeInUp-animation py-16">
+        <Logo />
+      </div>
+      <Hr class="mx-auto my-4 h-1 w-xs md:w-xl rounded-sm md:my-10" />
       <div class="mx-auto">
         <main class="px-8 py-16">
           {@render children?.()}
